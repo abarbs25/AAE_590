@@ -8,4 +8,14 @@ url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.t
 chipo = pd.read_csv(url, sep = '\t')
 
 #3
+chipo.head(10)
+
+#4
+chipo.shape[0]  # entries <= 4622 observations
+
+#5
+chipo.info() # entries <= 4622 observations
+
+#6
+chipo.shape[1]
 
